@@ -242,7 +242,7 @@ static void SWIGUNUSED SWIG_JavaThrowException(JNIEnv *jenv, SWIG_JavaExceptionC
 extern "C" {
 #endif
 
-SWIGEXPORT jint JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SM2_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_webank_blockchain_hsm_crypto_sdf_SDFJNI_SM2_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   hsm::AlgorithmType result;
   
@@ -254,7 +254,7 @@ SWIGEXPORT jint JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SM2_1get(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SM3_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_webank_blockchain_hsm_crypto_sdf_SDFJNI_SM3_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   hsm::AlgorithmType result;
   
@@ -266,7 +266,7 @@ SWIGEXPORT jint JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SM3_1get(JNI
 }
 
 
-SWIGEXPORT jint JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SM4_1CBC_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_com_webank_blockchain_hsm_crypto_sdf_SDFJNI_SM4_1CBC_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   hsm::AlgorithmType result;
   
@@ -278,7 +278,7 @@ SWIGEXPORT jint JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SM4_1CBC_1ge
 }
 
 
-SWIGEXPORT void JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SDFCryptoResult_1signature_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
+SWIGEXPORT void JNICALL Java_com_webank_blockchain_hsm_crypto_sdf_SDFJNI_SDFCryptoResult_1signature_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
   hsm::sdf::SDFCryptoResult *arg1 = (hsm::sdf::SDFCryptoResult *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -304,7 +304,7 @@ SWIGEXPORT void JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SDFCryptoRes
 }
 
 
-SWIGEXPORT jstring JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SDFCryptoResult_1signature_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jstring JNICALL Java_com_webank_blockchain_hsm_crypto_sdf_SDFJNI_SDFCryptoResult_1signature_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jstring jresult = 0 ;
   hsm::sdf::SDFCryptoResult *arg1 = (hsm::sdf::SDFCryptoResult *) 0 ;
   char *result = 0 ;
@@ -319,7 +319,7 @@ SWIGEXPORT jstring JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SDFCrypto
 }
 
 
-SWIGEXPORT void JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SDFCryptoResult_1publicKey_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
+SWIGEXPORT void JNICALL Java_com_webank_blockchain_hsm_crypto_sdf_SDFJNI_SDFCryptoResult_1publicKey_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
   hsm::sdf::SDFCryptoResult *arg1 = (hsm::sdf::SDFCryptoResult *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -345,7 +345,7 @@ SWIGEXPORT void JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SDFCryptoRes
 }
 
 
-SWIGEXPORT jstring JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SDFCryptoResult_1publicKey_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jstring JNICALL Java_com_webank_blockchain_hsm_crypto_sdf_SDFJNI_SDFCryptoResult_1publicKey_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jstring jresult = 0 ;
   hsm::sdf::SDFCryptoResult *arg1 = (hsm::sdf::SDFCryptoResult *) 0 ;
   char *result = 0 ;
@@ -360,7 +360,7 @@ SWIGEXPORT jstring JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SDFCrypto
 }
 
 
-SWIGEXPORT void JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SDFCryptoResult_1privateKey_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
+SWIGEXPORT void JNICALL Java_com_webank_blockchain_hsm_crypto_sdf_SDFJNI_SDFCryptoResult_1privateKey_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
   hsm::sdf::SDFCryptoResult *arg1 = (hsm::sdf::SDFCryptoResult *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -386,7 +386,7 @@ SWIGEXPORT void JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SDFCryptoRes
 }
 
 
-SWIGEXPORT jstring JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SDFCryptoResult_1privateKey_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jstring JNICALL Java_com_webank_blockchain_hsm_crypto_sdf_SDFJNI_SDFCryptoResult_1privateKey_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jstring jresult = 0 ;
   hsm::sdf::SDFCryptoResult *arg1 = (hsm::sdf::SDFCryptoResult *) 0 ;
   char *result = 0 ;
@@ -401,7 +401,7 @@ SWIGEXPORT jstring JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SDFCrypto
 }
 
 
-SWIGEXPORT void JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SDFCryptoResult_1result_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jboolean jarg2) {
+SWIGEXPORT void JNICALL Java_com_webank_blockchain_hsm_crypto_sdf_SDFJNI_SDFCryptoResult_1result_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jboolean jarg2) {
   hsm::sdf::SDFCryptoResult *arg1 = (hsm::sdf::SDFCryptoResult *) 0 ;
   bool arg2 ;
   
@@ -414,7 +414,7 @@ SWIGEXPORT void JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SDFCryptoRes
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SDFCryptoResult_1result_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jboolean JNICALL Java_com_webank_blockchain_hsm_crypto_sdf_SDFJNI_SDFCryptoResult_1result_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jboolean jresult = 0 ;
   hsm::sdf::SDFCryptoResult *arg1 = (hsm::sdf::SDFCryptoResult *) 0 ;
   bool result;
@@ -429,7 +429,7 @@ SWIGEXPORT jboolean JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SDFCrypt
 }
 
 
-SWIGEXPORT void JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SDFCryptoResult_1hash_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
+SWIGEXPORT void JNICALL Java_com_webank_blockchain_hsm_crypto_sdf_SDFJNI_SDFCryptoResult_1hash_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
   hsm::sdf::SDFCryptoResult *arg1 = (hsm::sdf::SDFCryptoResult *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -455,7 +455,7 @@ SWIGEXPORT void JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SDFCryptoRes
 }
 
 
-SWIGEXPORT jstring JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SDFCryptoResult_1hash_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jstring JNICALL Java_com_webank_blockchain_hsm_crypto_sdf_SDFJNI_SDFCryptoResult_1hash_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jstring jresult = 0 ;
   hsm::sdf::SDFCryptoResult *arg1 = (hsm::sdf::SDFCryptoResult *) 0 ;
   char *result = 0 ;
@@ -470,7 +470,7 @@ SWIGEXPORT jstring JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SDFCrypto
 }
 
 
-SWIGEXPORT void JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SDFCryptoResult_1sdfErrorMessage_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
+SWIGEXPORT void JNICALL Java_com_webank_blockchain_hsm_crypto_sdf_SDFJNI_SDFCryptoResult_1sdfErrorMessage_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
   hsm::sdf::SDFCryptoResult *arg1 = (hsm::sdf::SDFCryptoResult *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -496,7 +496,7 @@ SWIGEXPORT void JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SDFCryptoRes
 }
 
 
-SWIGEXPORT jstring JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SDFCryptoResult_1sdfErrorMessage_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jstring JNICALL Java_com_webank_blockchain_hsm_crypto_sdf_SDFJNI_SDFCryptoResult_1sdfErrorMessage_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jstring jresult = 0 ;
   hsm::sdf::SDFCryptoResult *arg1 = (hsm::sdf::SDFCryptoResult *) 0 ;
   char *result = 0 ;
@@ -511,7 +511,7 @@ SWIGEXPORT jstring JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SDFCrypto
 }
 
 
-SWIGEXPORT jlong JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_new_1SDFCryptoResult(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_webank_blockchain_hsm_crypto_sdf_SDFJNI_new_1SDFCryptoResult(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   hsm::sdf::SDFCryptoResult *result = 0 ;
   
@@ -523,7 +523,7 @@ SWIGEXPORT jlong JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_new_1SDFCry
 }
 
 
-SWIGEXPORT void JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_delete_1SDFCryptoResult(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_webank_blockchain_hsm_crypto_sdf_SDFJNI_delete_1SDFCryptoResult(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   hsm::sdf::SDFCryptoResult *arg1 = (hsm::sdf::SDFCryptoResult *) 0 ;
   
   (void)jenv;
@@ -533,7 +533,7 @@ SWIGEXPORT void JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_delete_1SDFC
 }
 
 
-SWIGEXPORT jlong JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_KeyGen(JNIEnv *jenv, jclass jcls, jint jarg1) {
+SWIGEXPORT jlong JNICALL Java_com_webank_blockchain_hsm_crypto_sdf_SDFJNI_KeyGen(JNIEnv *jenv, jclass jcls, jint jarg1) {
   jlong jresult = 0 ;
   hsm::AlgorithmType arg1 ;
   hsm::sdf::SDFCryptoResult result;
@@ -547,7 +547,7 @@ SWIGEXPORT jlong JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_KeyGen(JNIE
 }
 
 
-SWIGEXPORT jlong JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_Sign(JNIEnv *jenv, jclass jcls, jstring jarg1, jint jarg2, jstring jarg3) {
+SWIGEXPORT jlong JNICALL Java_com_webank_blockchain_hsm_crypto_sdf_SDFJNI_Sign(JNIEnv *jenv, jclass jcls, jstring jarg1, jint jarg2, jstring jarg3) {
   jlong jresult = 0 ;
   char *arg1 = (char *) 0 ;
   hsm::AlgorithmType arg2 ;
@@ -575,7 +575,7 @@ SWIGEXPORT jlong JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_Sign(JNIEnv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SignWithInternalKey(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3, jstring jarg4) {
+SWIGEXPORT jlong JNICALL Java_com_webank_blockchain_hsm_crypto_sdf_SDFJNI_SignWithInternalKey(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3, jstring jarg4) {
   jlong jresult = 0 ;
   unsigned int arg1 ;
   char *arg2 = (char *) 0 ;
@@ -605,7 +605,7 @@ SWIGEXPORT jlong JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_SignWithInt
 }
 
 
-SWIGEXPORT jlong JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_Verify(JNIEnv *jenv, jclass jcls, jstring jarg1, jint jarg2, jstring jarg3, jstring jarg4) {
+SWIGEXPORT jlong JNICALL Java_com_webank_blockchain_hsm_crypto_sdf_SDFJNI_Verify(JNIEnv *jenv, jclass jcls, jstring jarg1, jint jarg2, jstring jarg3, jstring jarg4) {
   jlong jresult = 0 ;
   char *arg1 = (char *) 0 ;
   hsm::AlgorithmType arg2 ;
@@ -640,7 +640,7 @@ SWIGEXPORT jlong JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_Verify(JNIE
 }
 
 
-SWIGEXPORT jlong JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_VerifyWithInternalKey(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jstring jarg3, jstring jarg4) {
+SWIGEXPORT jlong JNICALL Java_com_webank_blockchain_hsm_crypto_sdf_SDFJNI_VerifyWithInternalKey(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jstring jarg3, jstring jarg4) {
   jlong jresult = 0 ;
   unsigned int arg1 ;
   hsm::AlgorithmType arg2 ;
@@ -670,7 +670,7 @@ SWIGEXPORT jlong JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_VerifyWithI
 }
 
 
-SWIGEXPORT jlong JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_Hash(JNIEnv *jenv, jclass jcls, jstring jarg1, jint jarg2, jstring jarg3) {
+SWIGEXPORT jlong JNICALL Java_com_webank_blockchain_hsm_crypto_sdf_SDFJNI_Hash(JNIEnv *jenv, jclass jcls, jstring jarg1, jint jarg2, jstring jarg3) {
   jlong jresult = 0 ;
   char *arg1 = (char *) 0 ;
   hsm::AlgorithmType arg2 ;
@@ -698,7 +698,7 @@ SWIGEXPORT jlong JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_Hash(JNIEnv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_ExportInternalPublicKey(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jlong JNICALL Java_com_webank_blockchain_hsm_crypto_sdf_SDFJNI_ExportInternalPublicKey(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jlong jresult = 0 ;
   unsigned int arg1 ;
   hsm::AlgorithmType arg2 ;
@@ -710,6 +710,34 @@ SWIGEXPORT jlong JNICALL Java_com_webank_wedpr_crypto_hsm_sdf_SDFJNI_ExportInter
   arg2 = (hsm::AlgorithmType)jarg2; 
   result = hsm::sdf::ExportInternalPublicKey(arg1,arg2);
   *(hsm::sdf::SDFCryptoResult **)&jresult = new hsm::sdf::SDFCryptoResult((const hsm::sdf::SDFCryptoResult &)result); 
+  return jresult;
+}
+
+
+SWIGEXPORT jlong JNICALL Java_com_webank_blockchain_hsm_crypto_sdf_SDFJNI_HashWithZ(JNIEnv *jenv, jclass jcls, jstring jarg1, jint jarg2, jstring jarg3) {
+  jlong jresult = 0 ;
+  char *arg1 = (char *) 0 ;
+  hsm::AlgorithmType arg2 ;
+  char *arg3 = (char *) 0 ;
+  hsm::sdf::SDFCryptoResult result;
+  
+  (void)jenv;
+  (void)jcls;
+  arg1 = 0;
+  if (jarg1) {
+    arg1 = (char *)jenv->GetStringUTFChars(jarg1, 0);
+    if (!arg1) return 0;
+  }
+  arg2 = (hsm::AlgorithmType)jarg2; 
+  arg3 = 0;
+  if (jarg3) {
+    arg3 = (char *)jenv->GetStringUTFChars(jarg3, 0);
+    if (!arg3) return 0;
+  }
+  result = hsm::sdf::HashWithZ(arg1,arg2,(char const *)arg3);
+  *(hsm::sdf::SDFCryptoResult **)&jresult = new hsm::sdf::SDFCryptoResult((const hsm::sdf::SDFCryptoResult &)result); 
+  if (arg1) jenv->ReleaseStringUTFChars(jarg1, (const char *)arg1);
+  if (arg3) jenv->ReleaseStringUTFChars(jarg3, (const char *)arg3);
   return jresult;
 }
 

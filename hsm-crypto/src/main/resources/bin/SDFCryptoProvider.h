@@ -52,5 +52,6 @@ SDFCryptoResult Verify(char * publicKey, AlgorithmType algorithm, char const* di
 SDFCryptoResult VerifyWithInternalKey(unsigned int keyIndex, AlgorithmType algorithm, char const* digest,char const* signature);
 SDFCryptoResult Hash(char * key, AlgorithmType algorithm, char const* message);
 SDFCryptoResult ExportInternalPublicKey(unsigned int keyIndex, AlgorithmType algorithm);
+SDFCryptoResult HashWithZ(char* key, AlgorithmType algorithm, char const* message);
 }  // namespace crypto
 }  // namespace dev
