@@ -76,7 +76,7 @@ googleJavaFormat {
     include '**/*.java'
 }
 
-/*uploadArchives {
+uploadArchives {
     repositories {
         mavenDeployer {
             beforeDeployment { deployment -> signing.signPom(deployment) }
@@ -117,7 +117,7 @@ googleJavaFormat {
             }
         }
     }
-}*/
+}
 
 
 clean {
